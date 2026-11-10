@@ -1,0 +1,79 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3977 >>
+stream
+0.49 0.36 0.97 rg 60 752 4 40 re f
+BT /F2 24 Tf 0.16 0.15 0.22 rg 1 0 0 1 76 778 Tm (ALEX CARTER) Tj ET
+BT /F1 10.5 Tf 0.49 0.36 0.97 rg 1 0 0 1 76 758 Tm (Full Stack Developer) Tj ET
+BT /F1 8.5 Tf 0.42 0.40 0.48 rg 1 0 0 1 76 740 Tm (Dhaka, Bangladesh  ·  hello@alexcarter.dev  ·  +880 1700 000000  ·  alexcarter.dev) Tj ET
+0.88 0.87 0.91 RG 0.6 w 60 726 m 535 726 l S
+BT /F2 9 Tf 0.49 0.36 0.97 rg 1 0 0 1 60 700 Tm (PROFILE) Tj ET
+0.88 0.87 0.91 RG 0.6 w 60 693 m 535 693 l S
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 680 Tm (Full stack developer with 4+ years of experience building fast, accessible web products. Comfortable) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 666 Tm (owning work from Figma handoff through API design and deployment, with a focus on React, Next.js,) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 652 Tm (Node.js and PostgreSQL.) Tj ET
+BT /F2 9 Tf 0.49 0.36 0.97 rg 1 0 0 1 60 624 Tm (EXPERIENCE) Tj ET
+0.88 0.87 0.91 RG 0.6 w 60 617 m 535 617 l S
+BT /F2 10 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 604 Tm (Senior Frontend Engineer  Northwind Studio) Tj ET
+BT /F1 8.5 Tf 0.42 0.40 0.48 rg 1 0 0 1 455 604 Tm (2023  Present) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 588 Tm ("  Rebuilt the analytics dashboard in Next.js and TypeScript, cutting initial load time by 46%.) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 574 Tm ("  Introduced a shared design system with Tailwind, reducing UI bugs by roughly a third.) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 560 Tm ("  Mentored three junior developers and ran weekly frontend craft sessions.) Tj ET
+BT /F2 10 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 536 Tm (Full Stack Developer  Pixel & Pine) Tj ET
+BT /F1 8.5 Tf 0.42 0.40 0.48 rg 1 0 0 1 470 536 Tm (2021  2023) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 520 Tm ("  Delivered 14 client projects across e-commerce, fintech and education.) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 506 Tm ("  Built Node.js and PostgreSQL APIs serving 200k+ requests per day.) Tj ET
+BT /F2 9 Tf 0.49 0.36 0.97 rg 1 0 0 1 60 478 Tm (EDUCATION) Tj ET
+0.88 0.87 0.91 RG 0.6 w 60 471 m 535 471 l S
+BT /F2 10 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 458 Tm (B.Sc. in Computer Science & Engineering  University of Dhaka) Tj ET
+BT /F1 8.5 Tf 0.42 0.40 0.48 rg 1 0 0 1 470 458 Tm (2017  2021) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 443 Tm (CGPA 3.78 / 4.00 · Focus on web technologies and human-computer interaction.) Tj ET
+BT /F2 9 Tf 0.49 0.36 0.97 rg 1 0 0 1 60 416 Tm (SELECTED PROJECTS) Tj ET
+0.88 0.87 0.91 RG 0.6 w 60 409 m 535 409 l S
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 396 Tm (DevBoard  developer productivity dashboard \(Next.js, TypeScript, PostgreSQL\)) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 382 Tm (ShopSphere  e-commerce storefront and admin suite \(React, Node.js, MongoDB, Stripe\)) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 368 Tm (ChatWave  real-time team messaging app \(Next.js, Socket.IO, Redis, PostgreSQL\)) Tj ET
+BT /F2 9 Tf 0.49 0.36 0.97 rg 1 0 0 1 60 338 Tm (SKILLS) Tj ET
+0.88 0.87 0.91 RG 0.6 w 60 331 m 535 331 l S
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 318 Tm (TypeScript · React · Next.js · Tailwind CSS · Node.js · PostgreSQL · Prisma · MongoDB) Tj ET
+BT /F1 9.5 Tf 0.16 0.15 0.22 rg 1 0 0 1 60 304 Tm (Docker · Git / GitHub · Vercel CI/CD · Figma · Jest · Playwright) Tj ET
+0.96 0.95 1 rg 60 150 475 58 re f
+0.49 0.36 0.97 rg 60 150 3.5 58 re f
+BT /F2 10 Tf 0.30 0.16 0.62 rg 1 0 0 1 74 188 Tm (Placeholder resume document) Tj ET
+BT /F1 9 Tf 0.35 0.32 0.44 rg 1 0 0 1 74 172 Tm (Replace this file at public/resume.pdf with your real resume.) Tj ET
+BT /F1 9 Tf 0.35 0.32 0.44 rg 1 0 0 1 74 160 Tm (The download button will keep working with no code changes.) Tj ET
+0.9 0.89 0.93 RG 0.5 w 60 100 m 535 100 l S
+BT /F1 8 Tf 0.42 0.40 0.48 rg 1 0 0 1 60 84 Tm (Alex Carter · Full Stack Developer · Portfolio) Tj ET
+BT /F1 8 Tf 0.42 0.40 0.48 rg 1 0 0 1 490 84 Tm (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000354 00000 n 
+0000000456 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4485
+%%EOF

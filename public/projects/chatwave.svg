@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="ChatWave messaging app preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1418"/>
+      <stop offset="1" stop-color="#08070e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="a1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="a2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="a3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fda4af"/>
+      <stop offset="1" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="a4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#dots)"/>
+  <circle cx="1080" cy="120" r="340" fill="url(#glow)"/>
+
+  <rect x="64" y="56" width="1072" height="638" rx="20" fill="#0d0b18" stroke="#ffffff" stroke-opacity="0.1"/>
+  <rect x="64" y="56" width="1072" height="48" rx="20" fill="#141124"/>
+  <rect x="64" y="86" width="1072" height="18" fill="#141124"/>
+  <circle cx="94" cy="80" r="5" fill="#ff5f57"/>
+  <circle cx="114" cy="80" r="5" fill="#febc2e"/>
+  <circle cx="134" cy="80" r="5" fill="#28c840"/>
+  <rect x="430" y="68" width="340" height="24" rx="12" fill="#0a0812" stroke="#ffffff" stroke-opacity="0.06"/>
+  <text x="600" y="84" text-anchor="middle" font-family="'JetBrains Mono', Menlo, monospace" font-size="11" fill="#a49bbd" letter-spacing="0.5">chatwave.app/team/product</text>
+
+  <rect x="64" y="104" width="236" height="590" fill="#0a0913"/>
+  <line x1="300" y1="104" x2="300" y2="694" stroke="#ffffff" stroke-opacity="0.06"/>
+  <line x1="948" y1="104" x2="948" y2="694" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <rect x="86" y="128" width="26" height="26" rx="8" fill="url(#accent)"/>
+  <text x="98" y="147" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="11" font-weight="800" fill="#ffffff">C</text>
+  <text x="122" y="146" font-family="Inter, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#f5f2ff">ChatWave</text>
+  <rect x="86" y="172" width="192" height="30" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.06"/>
+  <text x="100" y="191" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#a49bbd">Search messages…</text>
+
+  <text x="88" y="232" font-family="'JetBrains Mono', Menlo, monospace" font-size="8" letter-spacing="2" fill="#8b7fa8">CHANNELS</text>
+  <g font-family="Inter, Helvetica, sans-serif" font-size="10">
+    <rect x="86" y="246" width="192" height="30" rx="8" fill="#8b5cf6" fill-opacity="0.16"/>
+    <text x="104" y="265" fill="#e9d5ff"># product-design</text>
+    <circle cx="258" cy="261" r="8" fill="#8b5cf6"/>
+    <text x="258" y="264" text-anchor="middle" font-size="8" fill="#ffffff">3</text>
+    <text x="104" y="301" fill="#a49bbd"># engineering</text>
+    <text x="104" y="333" fill="#a49bbd"># launch-week</text>
+    <text x="104" y="365" fill="#a49bbd"># random</text>
+  </g>
+
+  <text x="88" y="412" font-family="'JetBrains Mono', Menlo, monospace" font-size="8" letter-spacing="2" fill="#8b7fa8">DIRECT MESSAGES</text>
+  <g>
+    <circle cx="100" cy="440" r="9" fill="url(#a1)"/>
+    <text x="116" y="444" font-family="Inter, Helvetica, sans-serif" font-size="10" fill="#a49bbd">Maya Chen</text>
+    <circle cx="258" cy="437" r="3" fill="#34d399"/>
+    <circle cx="100" cy="474" r="9" fill="url(#a2)"/>
+    <text x="116" y="478" font-family="Inter, Helvetica, sans-serif" font-size="10" fill="#a49bbd">Sam Okafor</text>
+    <circle cx="100" cy="508" r="9" fill="url(#a3)"/>
+    <text x="116" y="512" font-family="Inter, Helvetica, sans-serif" font-size="10" fill="#a49bbd">Priya Nair</text>
+  </g>
+
+  <rect x="86" y="614" width="192" height="56" rx="12" fill="#141124" stroke="#ffffff" stroke-opacity="0.06"/>
+  <circle cx="108" cy="642" r="12" fill="url(#a4)"/>
+  <text x="108" y="646" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#3b0764">AC</text>
+  <text x="130" y="638" font-family="Inter, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#f5f2ff">Alex Carter</text>
+  <text x="130" y="653" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#34d399">Online</text>
+
+  <g>
+    <text x="324" y="140" font-family="Inter, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#f5f2ff"># product-design</text>
+    <text x="324" y="156" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#a49bbd">12 members · 4 online</text>
+    <g transform="translate(852 128)">
+      <circle cx="0" cy="0" r="10" fill="url(#a1)" stroke="#0d0b18" stroke-width="2"/>
+      <circle cx="18" cy="0" r="10" fill="url(#a2)" stroke="#0d0b18" stroke-width="2"/>
+      <circle cx="36" cy="0" r="10" fill="url(#a3)" stroke="#0d0b18" stroke-width="2"/>
+      <rect x="50" y="-9" width="26" height="18" rx="9" fill="#1c1530" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="63" y="4" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#c4b5fd">+9</text>
+    </g>
+    <line x1="324" y1="172" x2="924" y2="172" stroke="#ffffff" stroke-opacity="0.06"/>
+  </g>
+
+  <g>
+    <circle cx="340" cy="202" r="13" fill="url(#a1)"/>
+    <text x="340" y="206" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#ffffff">M</text>
+    <text x="362" y="199" font-family="Inter, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#f5f2ff">Maya Chen</text>
+    <text x="424" y="199" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#7d7395">10:24</text>
+    <rect x="362" y="206" width="286" height="40" rx="10" fill="#171326"/>
+    <text x="376" y="223" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#c9c0dd">Pushed the new empty states to Figma —</text>
+    <text x="376" y="236" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#c9c0dd">can someone review before standup?</text>
+  </g>
+
+  <g>
+    <circle cx="340" cy="274" r="13" fill="url(#a2)"/>
+    <text x="340" y="278" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#ffffff">S</text>
+    <text x="362" y="271" font-family="Inter, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#f5f2ff">Sam Okafor</text>
+    <text x="431" y="271" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#7d7395">10:26</text>
+    <rect x="362" y="278" width="330" height="56" rx="10" fill="#171326"/>
+    <text x="376" y="295" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#c9c0dd">Looks great. The mobile spacing feels much</text>
+    <text x="376" y="308" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#c9c0dd">tighter now. I&apos;ll wire the components after</text>
+    <text x="376" y="321" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#c9c0dd">lunch 🚀</text>
+    <rect x="362" y="336" width="52" height="16" rx="8" fill="#8b5cf6" fill-opacity="0.18"/>
+    <text x="376" y="347" font-family="Inter, Helvetica, sans-serif" font-size="7" fill="#c4b5fd">👍 4    🔥 2</text>
+  </g>
+
+  <g>
+    <circle cx="784" cy="388" r="13" fill="url(#a3)"/>
+    <text x="784" y="392" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#ffffff">P</text>
+    <text x="700" y="385" text-anchor="end" font-family="Inter, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#f5f2ff">You</text>
+    <text x="756" y="385" text-anchor="end" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#7d7395">10:31</text>
+    <rect x="560" y="392" width="238" height="40" rx="10" fill="url(#accent)"/>
+    <text x="574" y="409" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#ffffff">On it — reviewing the flow now. Will</text>
+    <text x="574" y="422" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#ffffff">leave notes in the thread.</text>
+  </g>
+
+  <g>
+    <circle cx="340" cy="470" r="13" fill="url(#a1)"/>
+    <text x="340" y="474" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#ffffff">M</text>
+    <text x="362" y="467" font-family="Inter, Helvetica, sans-serif" font-size="10" font-weight="600" fill="#f5f2ff">Maya Chen</text>
+    <text x="424" y="467" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#7d7395">10:33</text>
+    <rect x="362" y="474" width="380" height="40" rx="10" fill="#171326" stroke="#8b5cf6" stroke-opacity="0.25"/>
+    <text x="376" y="491" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#c9c0dd">Perfect. Also added the new onboarding copy doc —</text>
+    <text x="376" y="504" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#c9c0dd">linked in the project board.</text>
+  </g>
+
+  <g>
+    <circle cx="341" cy="550" r="4" fill="#a49bbd" fill-opacity="0.7"/>
+    <circle cx="353" cy="550" r="4" fill="#a49bbd" fill-opacity="0.45"/>
+    <circle cx="365" cy="550" r="4" fill="#a49bbd" fill-opacity="0.25"/>
+    <text x="380" y="554" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#7d7395">Sam is typing…</text>
+  </g>
+
+  <rect x="324" y="618" width="600" height="44" rx="12" fill="#12101e" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="342" y="645" font-family="Inter, Helvetica, sans-serif" font-size="10" fill="#7d7395">Message #product-design…</text>
+  <rect x="864" y="628" width="48" height="24" rx="7" fill="url(#accent)"/>
+  <text x="888" y="644" text-anchor="middle" font-family="Inter, Helvetica, sans-serif" font-size="9" font-weight="600" fill="#ffffff">Send</text>
+
+  <text x="972" y="140" font-family="Inter, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#f5f2ff">Members</text>
+  <text x="972" y="156" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#a49bbd">12 in this channel</text>
+  <g>
+    <circle cx="984" cy="192" r="11" fill="url(#a1)"/>
+    <text x="1002" y="196" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#d8d0e8">Maya Chen</text>
+    <circle cx="1096" cy="190" r="3" fill="#34d399"/>
+    <circle cx="984" cy="226" r="11" fill="url(#a2)"/>
+    <text x="1002" y="230" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#d8d0e8">Sam Okafor</text>
+    <circle cx="1096" cy="224" r="3" fill="#34d399"/>
+    <circle cx="984" cy="260" r="11" fill="url(#a3)"/>
+    <text x="1002" y="264" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#d8d0e8">Priya Nair</text>
+    <circle cx="1096" cy="258" r="3" fill="#a49bbd" fill-opacity="0.4"/>
+    <circle cx="984" cy="294" r="11" fill="url(#a4)"/>
+    <text x="1002" y="298" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#d8d0e8">Alex Carter</text>
+    <circle cx="1096" cy="292" r="3" fill="#34d399"/>
+    <circle cx="984" cy="328" r="11" fill="url(#a1)" opacity="0.7"/>
+    <text x="1002" y="332" font-family="Inter, Helvetica, sans-serif" font-size="9" fill="#d8d0e8">Jon Bell</text>
+    <circle cx="1096" cy="326" r="3" fill="#a49bbd" fill-opacity="0.4"/>
+  </g>
+  <rect x="972" y="368" width="136" height="1" fill="#ffffff" fill-opacity="0.06"/>
+  <text x="972" y="398" font-family="'JetBrains Mono', Menlo, monospace" font-size="8" letter-spacing="1.5" fill="#8b7fa8">SHARED FILES</text>
+  <rect x="972" y="414" width="136" height="52" rx="9" fill="#141124" stroke="#ffffff" stroke-opacity="0.06"/>
+  <rect x="984" y="426" width="16" height="20" rx="3" fill="#8b5cf6" fill-opacity="0.3"/>
+  <text x="1008" y="434" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#d8d0e8">onboarding.pdf</text>
+  <text x="1008" y="446" font-family="Inter, Helvetica, sans-serif" font-size="7" fill="#7d7395">2.4 MB</text>
+  <rect x="972" y="478" width="136" height="52" rx="9" fill="#141124" stroke="#ffffff" stroke-opacity="0.06"/>
+  <rect x="984" y="490" width="16" height="20" rx="3" fill="#22d3ee" fill-opacity="0.25"/>
+  <text x="1008" y="498" font-family="Inter, Helvetica, sans-serif" font-size="8" fill="#d8d0e8">spec-v3.fig</text>
+  <text x="1008" y="510" font-family="Inter, Helvetica, sans-serif" font-size="7" fill="#7d7395">8.1 MB</text>
+</svg>
