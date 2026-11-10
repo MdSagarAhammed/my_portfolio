@@ -24,7 +24,7 @@ export function Education() {
                 Education timeline
               </p>
               <p className="mt-2 text-sm leading-relaxed text-muted">
-                From my first school computer lab to a CS degree — each step added a
+                From my first college computer lab to a CS degree — each step added a
                 layer to how I think about building software.
               </p>
             </div>

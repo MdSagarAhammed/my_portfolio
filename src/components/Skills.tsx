@@ -10,7 +10,7 @@ const icons: Record<SkillGroupIcon, typeof Layers> = {
   tools: Wrench,
 };
 
-const extras = ["Jest", "Playwright", "Storybook", "GraphQL", "AWS basics", "GitHub Actions"];
+const extras = [ "Vercel", "Git", "GitHub", "BetterAuth", "Javascript"];
 
 export function Skills() {
   return (

@@ -46,12 +46,12 @@ export function About() {
               </div>
             </div>
 
-            <p className="mt-9 font-display text-sm italic text-muted/80">
+            {/* <p className="mt-9 font-display text-sm italic text-muted/80">
               “Good software is equal parts empathy and iteration.”
               <span className="mt-1 block font-mono text-[0.65rem] not-italic tracking-wider text-accent-light/80">
                 — {profile.name}
               </span>
-            </p>
+            </p> */}
           </Reveal>
 
           <div className="space-y-5">
@@ -90,7 +90,7 @@ export function About() {
                   <span className="h-2.5 w-2.5 rounded-full bg-[#febc2e]" />
                   <span className="h-2.5 w-2.5 rounded-full bg-[#28c840]" />
                   <span className="ml-2 font-mono text-[0.62rem] text-muted/70">
-                    alex@portfolio — zsh
+                    sagar@portfolio — zsh
                   </span>
                 </div>
                 <div className="space-y-2.5 p-4 font-mono text-[0.72rem] leading-relaxed">

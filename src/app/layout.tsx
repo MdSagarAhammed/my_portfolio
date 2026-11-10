@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default: site.title,
-    template: "%s — Alex Carter",
+    template: "%s — Sagar Ahammed",
   },
   description: site.description,
   keywords: [
-    "Alex Carter",
+    "Sagar Ahammed",
     "Full Stack Developer",
     "Frontend Developer",
     "React Developer",
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     "TypeScript",
     "Portfolio",
   ],
-  authors: [{ name: "Alex Carter" }],
-  creator: "Alex Carter",
+  authors: [{ name: "Sagar Ahammed" }],
+  creator: "Sagar Ahammed",
   openGraph: {
     type: "website",
     title: site.title,

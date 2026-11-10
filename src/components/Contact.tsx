@@ -54,7 +54,7 @@ export function Contact() {
 
             <div className="relative grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
               <div>
-                <p className="eyebrow">06 — Contact</p>
+                <p className="eyebrow">05 — Contact</p>
                 <h2 className="mt-4 font-display text-3xl font-bold leading-[1.1] tracking-tight text-cream sm:text-4xl md:text-[2.8rem]">
                   Have an idea?{" "}
                   <span className="text-gradient-accent">Let&apos;s build it.</span>

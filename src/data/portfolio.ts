@@ -25,7 +25,7 @@ export const profile = {
   email: "sagar2002004@gmail.com",
   phone: "+880 1722528308",
   phoneHref: "+8801700000000",
-  whatsapp: "8801722528308",
+  whatsapp: "+8801722528308",
   availability: "Available for freelance & full-time roles",
   resume: "/resume.pdf",
   photo: "/profile.jpeg",
@@ -36,16 +36,15 @@ export const profile = {
   ],
   facts: [
     { label: "Based in", value: "Rangpur, Bangladesh" },
-    { label: "Experience", value: "4+ years building for the web" },
+    // { label: "Experience", value: "4+ years building for the web" },
     { label: "Focus", value: "React, Next.js, Node.js, Express.js" },
     { label: "Currently", value: "Open to new opportunities" },
   ],
   hobbies: [
-    "playing Football",
+    "Playing Football",
     "Watching Anime",
-    "UI sketching",
+    "Traveling",
     "Open source",
-    "Photography",
   ],
 };
 
@@ -84,7 +83,7 @@ export const socials: {
 ];
 
 export const stats = [
-  { value: "4+", label: "Years of experience" },
+  // { value: "4+", label: "Years of experience" },
   { value: "4+", label: "Projects shipped" },
   // { value: "12+", label: "Happy clients" },
 ];
@@ -138,7 +137,7 @@ export const skillGroups: {
     blurb: "The details that turn a project into a dependable product.",
     skills: [
       { name: "Git / GitHub", level: 92 },
-      { name: "Vercel / CI-CD", level: 86 },
+      { name: "Vercel / Deployment", level: 86 },
       // { name: "Docker", level: 74 },
       { name: "Figma / Design", level: 78 },
     ],
@@ -342,7 +341,7 @@ export const site = {
   title: "Sagar Ahammed — Full Stack Developer",
   description:
     "Portfolio of Sagar Ahammed, a full stack developer building fast, accessible web products with React, Next.js and Node.js.",
-  url: "https://alexcarter.dev",
+  url: "https://myportfolio-ashen-seven-24.vercel.app",
   ogImage: "/projects/devboard.svg",
 };
 
@@ -351,7 +350,7 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
-  { label: "Experience", href: "#experience" },
+  // { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];

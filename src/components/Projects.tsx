@@ -11,7 +11,7 @@ export function Projects() {
       <div className="container-x">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <SectionHeading
-            eyebrow="05 — Projects"
+            eyebrow="04 — Projects"
             title={
               <>
                 Selected work,{" "}
