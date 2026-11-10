@@ -43,7 +43,7 @@ export function Education() {
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <span className="chip text-[0.64rem]">{item.period}</span>
                     <span className="font-mono text-[0.64rem] text-emerald-300/90">
-                      {item.result}
+                      {/* {item.result} */}
                     </span>
                   </div>
 

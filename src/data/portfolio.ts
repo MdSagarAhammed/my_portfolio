@@ -290,16 +290,16 @@ export const projects: Project[] = [
       "Admin dashboard for products, stock, discounts and orders",
       "Order tracking emails and downloadable invoices",
     ],
-    challenges: [
-      "Cart state had to survive refreshes and sign-ins. I persisted a guest cart locally, then merged it into the server cart on login without duplicating line items.",
-      "Payment webhooks occasionally arrived before the order record existed. I made webhook handling idempotent and added a reconciliation job for missed events.",
-      "Product images were slowing the catalogue on mobile. Migrating to Cloudinary with width-based transformations cut the page weight by more than half.",
-    ],
-    improvements: [
-      "Add multi-vendor support with per-seller payouts.",
-      "Build a recommendation engine using purchase history.",
-      "Add a headless storefront starter kit for faster client onboarding.",
-    ],
+    // challenges: [
+    //   "Cart state had to survive refreshes and sign-ins. I persisted a guest cart locally, then merged it into the server cart on login without duplicating line items.",
+    //   "Payment webhooks occasionally arrived before the order record existed. I made webhook handling idempotent and added a reconciliation job for missed events.",
+    //   "Product images were slowing the catalogue on mobile. Migrating to Cloudinary with width-based transformations cut the page weight by more than half.",
+    // ],
+    // improvements: [
+    //   "Add multi-vendor support with per-seller payouts.",
+    //   "Build a recommendation engine using purchase history.",
+    //   "Add a headless storefront starter kit for faster client onboarding.",
+    // ],
     liveUrl: "https://shopsphere.example.com",
     githubUrl: "https://github.com/alexcarter/shopsphere",
   },
@@ -323,16 +323,16 @@ export const projects: Project[] = [
       "Message search with cursor-based pagination",
       "File attachments and emoji reactions",
     ],
-    challenges: [
-      "Keeping unread counts accurate across reconnects was tricky. I derived counts from per-user last-read cursors instead of incrementing counters, which removed drift entirely.",
-      "Fan-out to many sockets risked duplicate messages when a client reconnected mid-stream. Client-generated message IDs plus unique constraints made delivery idempotent.",
-      "Scaling beyond one Node process required moving socket state into Redis while keeping the API stateless.",
-    ],
-    improvements: [
-      "Add end-to-end encryption for direct messages.",
-      "Build voice and video rooms using WebRTC.",
-      "Ship a desktop app with offline message queuing.",
-    ],
+    // challenges: [
+    //   "Keeping unread counts accurate across reconnects was tricky. I derived counts from per-user last-read cursors instead of incrementing counters, which removed drift entirely.",
+    //   "Fan-out to many sockets risked duplicate messages when a client reconnected mid-stream. Client-generated message IDs plus unique constraints made delivery idempotent.",
+    //   "Scaling beyond one Node process required moving socket state into Redis while keeping the API stateless.",
+    // ],
+    // improvements: [
+    //   "Add end-to-end encryption for direct messages.",
+    //   "Build voice and video rooms using WebRTC.",
+    //   "Ship a desktop app with offline message queuing.",
+    // ],
     liveUrl: "https://chatwave.example.com",
     githubUrl: "https://github.com/alexcarter/chatwave",
   },
