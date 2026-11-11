@@ -15,7 +15,7 @@ export function Projects() {
             title={
               <>
                 Selected work,{" "}
-                <span className="text-gradient-accent">shipped</span>.
+                <span className="text-gradient-accent">deployed</span>.
               </>
             }
             description="A few builds that show how was my web development journey, my learnings, my expertise and my hands-on skills as an aspiring software engineer."

@@ -1,16 +1,6 @@
-import type { CSSProperties } from "react";
-import { Layers, Server, Wrench } from "lucide-react";
-import { skillGroups, type SkillGroupIcon } from "@/data/portfolio";
+import { skills } from "@/data/portfolio";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-
-const icons: Record<SkillGroupIcon, typeof Layers> = {
-  frontend: Layers,
-  backend: Server,
-  tools: Wrench,
-};
-
-const extras = [ "Vercel", "Git", "GitHub", "BetterAuth", "Javascript"];
 
 export function Skills() {
   return (
@@ -26,11 +16,11 @@ export function Skills() {
             eyebrow="02 — Skills"
             title={
               <>
-                A toolkit built for{" "}
-                <span className="text-gradient-accent">shipping</span>.
+                I&apos;ve been working with these{" "}
+                <span className="text-gradient-accent">Technology</span>.
               </>
             }
-            description="I pick tools for the problem, not the hype. These are the ones I reach for most."
+            description=""
           />
           <Reveal delay={120}>
             <span className="inline-flex items-center gap-2 rounded-full border border-line bg-white/[0.03] px-3.5 py-2 font-mono text-[0.66rem] uppercase tracking-[0.16em] text-muted">
@@ -40,69 +30,54 @@ export function Skills() {
           </Reveal>
         </div>
 
-        <div className="mt-12 grid gap-5 md:grid-cols-2 lg:mt-16 lg:grid-cols-3">
-          {skillGroups.map((group, index) => {
-            const Icon = icons[group.icon];
-            return (
-              <Reveal key={group.title} delay={index * 90}>
-                <div className="card-glass card-hover h-full p-6">
-                  <div className="flex items-start justify-between gap-3">
-                    <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-accent/25 bg-gradient-to-br from-accent/20 to-accent-deep/10 text-accent-light">
-                      <Icon className="h-5 w-5" strokeWidth={1.7} />
-                    </span>
-                    <span className="font-mono text-[0.62rem] tracking-wider text-muted/50">
-                      0{index + 1}
-                    </span>
-                  </div>
 
-                  <h3 className="mt-5 font-display text-lg font-semibold text-cream">
-                    {group.title}
-                  </h3>
-                  <p className="mt-1.5 text-[0.82rem] leading-relaxed text-muted">
-                    {group.blurb}
-                  </p>
+    {/* // <section id="skills" className="section relative overflow-hidden">
+    //   <div
+    //     className="aurora -left-40 top-1/4 h-80 w-80 bg-accent/10"
+    //     aria-hidden="true"
+    //   /> */}
 
-                  <div className="mt-6 space-y-4">
-                    {group.skills.map((skill) => (
-                      <div key={skill.name}>
-                        <div className="flex items-baseline justify-between gap-3">
-                          <span className="text-[0.82rem] font-medium text-cream/90">
-                            {skill.name}
-                          </span>
-                          <span className="font-mono text-[0.62rem] text-muted/70">
-                            {skill.level}%
-                          </span>
-                        </div>
-                        <div className="skill-track mt-2">
-                          <div
-                            className="skill-fill"
-                            style={{ "--level": `${skill.level}%` } as CSSProperties}
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </Reveal>
-            );
-          })}
+      {/* <div className="container-x relative">
+        <Reveal className="mx-auto max-w-2xl text-center">
+          <h2 className="font-display text-4xl font-bold tracking-tight text-cream sm:text-5xl">
+            My <span className="text-gradient-accent">Skills</span>
+          </h2>
+          <span
+            className="mx-auto mt-4 block h-1 w-28 rounded-full bg-gradient-to-r from-accent via-accent-light to-sky-400"
+            aria-hidden="true"
+          />
+          <p className="mt-6 text-[0.98rem] leading-relaxed text-muted sm:text-base">
+            Technologies I&apos;ve been working with recently
+          </p>
+        </Reveal> */}
+
+        <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5 lg:mt-16 lg:grid-cols-5">
+          {skills.map((skill, index) => (
+            <Reveal key={skill.name} delay={index * 60}>
+              <div className="group flex h-full flex-col items-center justify-center rounded-2xl border border-line bg-white/[0.02] px-4 py-9 text-center transition duration-300 hover:-translate-y-1 hover:border-accent/40 hover:bg-white/[0.04] hover:shadow-[0_20px_50px_-30px_rgba(139,92,246,0.6)] sm:px-6 sm:py-10">
+                <span className="flex h-16 w-16 items-center justify-center">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={skill.logo}
+                    alt=""
+                    width={64}
+                    height={64}
+                    loading="lazy"
+                    className={`h-16 w-16 object-contain transition duration-300 group-hover:scale-105 ${
+                      skill.invert ? "invert" : ""
+                    }`}
+                  />
+                </span>
+                <h3 className="mt-6 font-display text-[0.95rem] font-semibold text-cream sm:text-base">
+                  {skill.name}
+                </h3>
+                <p className="mt-2 text-[0.8rem] text-muted/80">
+                  {skill.category}
+                </p>
+              </div>
+            </Reveal>
+          ))}
         </div>
-
-        <Reveal delay={120}>
-          <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 rounded-2xl border border-line/70 bg-white/[0.02] px-5 py-4">
-            <span className="font-mono text-[0.66rem] uppercase tracking-[0.18em] text-muted/70">
-              Also comfortable with
-            </span>
-            {extras.map((item) => (
-              <span
-                key={item}
-                className="rounded-md border border-line bg-white/[0.03] px-2 py-1 font-mono text-[0.66rem] text-muted"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
-        </Reveal>
       </div>
     </section>
   );

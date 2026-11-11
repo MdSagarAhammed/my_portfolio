@@ -1,10 +1,17 @@
-import { Facebook, Github, Linkedin, Twitter, type LucideIcon } from "lucide-react";
+import type { ComponentType } from "react";
+import { Facebook, Github, Linkedin } from "lucide-react";
 import { socials, type SocialIcon } from "@/data/portfolio";
+import { XIcon } from "@/components/ui/XIcon";
 
-const iconMap: Record<SocialIcon, LucideIcon> = {
+type SocialIconComponent = ComponentType<{
+  className?: string;
+  strokeWidth?: number;
+}>;
+
+const iconMap: Record<SocialIcon, SocialIconComponent> = {
   github: Github,
   linkedin: Linkedin,
-  twitter: Twitter,
+  x: XIcon,
   facebook: Facebook,
 };
 

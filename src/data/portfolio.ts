@@ -43,7 +43,7 @@ export const profile = {
   hobbies: ["Playing Football", "Watching Anime", "Traveling", "Open source"],
 };
 
-export type SocialIcon = "github" | "linkedin" | "twitter" | "facebook";
+export type SocialIcon = "github" | "linkedin" | "x" | "facebook";
 
 export const socials: {
   label: string;
@@ -64,9 +64,9 @@ export const socials: {
     handle: "in/mdsagarahammed0",
   },
   {
-    label: "Twitter",
+    label: "X",
     href: "https://x.com/MdSagarAhammed0",
-    icon: "twitter",
+    icon: "x",
     handle: "@MdSagarAhammed0",
   },
   // {
@@ -96,46 +96,75 @@ export const stack = [
   "Rest API",
 ];
 
-export type SkillGroupIcon = "frontend" | "backend" | "tools";
+export type SkillCategory = "Frontend" | "Backend" | "Tools";
 
-export const skillGroups: {
-  title: string;
-  icon: SkillGroupIcon;
-  blurb: string;
-  skills: { name: string; level: number }[];
-}[] = [
+export type Skill = {
+  name: string;
+  category: SkillCategory;
+  logo: string;
+  /** Invert monochrome logos that ship black so they read on the dark theme. */
+  invert?: boolean;
+};
+
+export const skills: Skill[] = [
   {
-    title: "Frontend",
-    icon: "frontend",
-    blurb: "Interfaces that feel fast, accessible and intentional.",
-    skills: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Tailwind CSS", level: 94 },
-      // { name: "Framer Motion", level: 80 },
-    ],
+    name: "HTML",
+    category: "Frontend",
+    logo: "/tech/html5-original.svg",
   },
   {
-    title: "Backend",
-    icon: "backend",
-    blurb: "APIs and data layers built to stay reliable as they grow.",
-    skills: [
-      { name: "Node.js / Express", level: 88 },
-      // { name: "PostgreSQL / Prisma", level: 84 },
-      { name: "MongoDB", level: 86 },
-      { name: "REST & Auth (JWT)", level: 82 },
-    ],
+    name: "CSS",
+    category: "Frontend",
+    logo: "/tech/css3-original.svg",
   },
   {
-    title: "Tools & Workflow",
-    icon: "tools",
-    blurb: "The details that turn a project into a dependable product.",
-    skills: [
-      { name: "Git / GitHub", level: 92 },
-      { name: "Vercel / Deployment", level: 86 },
-      // { name: "Docker", level: 74 },
-      { name: "Figma / Design", level: 78 },
-    ],
+    name: "JavaScript",
+    category: "Frontend",
+    logo: "/tech/javascript-original.svg",
+  },
+  {
+    name: "React",
+    category: "Frontend",
+    logo: "/tech/react-original.svg",
+  },
+  {
+    name: "Next.js",
+    category: "Frontend",
+    logo: "/tech/nextjs-original.svg",
+    invert: true,
+  },
+  {
+    name: "Tailwind CSS",
+    category: "Frontend",
+    logo: "/tech/tailwindcss-original.svg",
+  },
+  {
+    name: "Node.js",
+    category: "Backend",
+    logo: "/tech/nodedotjs-original.svg",
+  },
+  {
+    name: "MongoDB",
+    category: "Backend",
+    logo: "/tech/mongodb-original.svg",
+  },
+  {
+    name: "Express.js",
+    category: "Backend",
+    logo: "/tech/logo-express-black.svg",
+    invert: true,
+  },
+  {
+    name: "GitHub",
+    category: "Tools",
+    logo: "/tech/github-original.svg",
+    invert: true,
+  },
+  {
+    name: "TypeScript",
+    category: "Frontend",
+    logo: "/tech/ts-logo-256.svg",
+    
   },
 ];
 
