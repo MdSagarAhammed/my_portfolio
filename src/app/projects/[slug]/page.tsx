@@ -59,7 +59,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     { label: "Role", value: project.role, icon: UserRound },
     { label: "Timeline", value: project.timeline, icon: CalendarDays },
     { label: "Year", value: project.year, icon: Sparkles },
-    { label: "Client", value: project.client, icon: Wrench },
+    { label: "For", value: project.for, icon: Wrench },
   ];
 
   return (
@@ -82,9 +82,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <header className="mt-8 max-w-4xl">
           <div className="flex flex-wrap items-center gap-2.5">
             <span className="chip">{project.year}</span>
-            <span className="font-mono text-[0.66rem] uppercase tracking-[0.16em] text-muted/60">
+            {/* <span className="font-mono text-[0.66rem] uppercase tracking-[0.16em] text-muted/60">
               {project.client}
-            </span>
+            </span> */}
           </div>
 
           <h1 className="mt-4 font-display text-4xl font-bold leading-[1.05] tracking-tight text-cream sm:text-5xl md:text-6xl">

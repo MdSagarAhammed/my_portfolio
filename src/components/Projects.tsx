@@ -18,11 +18,11 @@ export function Projects() {
                 <span className="text-gradient-accent">shipped</span>.
               </>
             }
-            description="A few builds that show how I think about product, performance and the small details that make software feel good."
+            description="A few builds that show how was my web development journey, my learnings, my expertise and my hands-on skills as an aspiring software engineer."
           />
           <Reveal delay={120}>
             <a
-              href="https://github.com/alexcarter"
+              href="https://github.com/MdSagarAhammed"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost px-4 py-2.5 text-xs"

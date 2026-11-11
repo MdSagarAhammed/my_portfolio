@@ -62,7 +62,7 @@ export function Hero() {
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <a
                   href={profile.resume}
-                  download="Alex-Carter-Resume.pdf"
+                  download="Sagar_resume.pdf"
                   className="btn btn-primary"
                 >
                   <Download className="h-4 w-4" strokeWidth={2.2} />
@@ -151,13 +151,13 @@ export function Hero() {
               >
                 <p className="font-mono text-[0.62rem] text-muted">currently into</p>
                 <p className="mt-0.5 text-xs font-semibold text-cream">
-                  design systems & DX
+                  Backend Architecture
                 </p>
               </div>
 
               <div className="float-soft absolute -right-2 top-1/3 hidden rounded-xl border border-accent/30 bg-[#120d22]/95 px-3.5 py-2.5 shadow-xl shadow-accent/20 backdrop-blur-md sm:block">
-                <p className="font-mono text-[0.62rem] text-accent-light">4+ years</p>
-                <p className="mt-0.5 text-xs font-semibold text-cream">shipping web apps</p>
+                <p className="font-mono text-[0.62rem] text-accent-light">4+ </p>
+                <p className="mt-0.5 text-xs font-semibold text-cream">web apps deployed</p>
               </div>
 
               <div className="absolute -bottom-4 right-6 flex items-center gap-2 rounded-full border border-line bg-[#0d0b17]/95 px-3 py-2 shadow-lg backdrop-blur-md">

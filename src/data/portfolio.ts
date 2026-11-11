@@ -16,8 +16,8 @@ export const profile = {
   designation: "Full Stack Developer",
   roles: [
     "React & Next.js Specialist",
-    "UI Engineer",
-    "Design Systems Enthusiast",
+    "Express.js & RestAPI Expert",
+    "Backend Focused",
   ],
   tagline:
     "I build fast, accessible web products — from pixel-perfect interfaces to the APIs and databases behind them.",
@@ -30,9 +30,9 @@ export const profile = {
   resume: "/resume.pdf",
   photo: "/profile.jpeg",
   bio: [
-    "I'm a full stack developer who fell in love with the web the day I inspected my first webpage. What started as tweaking MySpace layouts turned into a Computer Science degree, a stack of late-night side projects, and a career building products that people actually use.",
-    "I enjoy work that sits at the intersection of design and engineering: turning a fuzzy idea into a clean interface, then wiring it to a backend that stays fast under real traffic. My happy place is a well-structured React codebase, a typed API, and a design system that makes shipping features feel effortless.",
-    "Outside the editor you'll find me cycling the long way home, hunting for the best local coffee, sketching UI ideas in a battered notebook, or losing a few rounds of online chess. I care about craft, honest feedback, and leaving codebases better than I found them.",
+    "I'm a full stack developer who fell in love with the web the day I inspected my first webpage. What started as tweaking MySpace layouts turned into a Computer Science degree, a stack of late-night side projects, and aiming for a career building products that people actually use.",
+    "I enjoy work that sits at the intersection of design and engineering: turning an idea into a clean interface, then wiring it to a backend that stays fast under real traffic. My happy place is a well-structured React codebase, a typed API, and a design system that makes shipping features feel effortless.",
+    "Outside the editor you'll find me watching anime or movie series, hunting for the best spot for traveling or playing football in an open field. I care about craft, honest feedback, and leaving codebases better than I found them.",
   ],
   facts: [
     { label: "Based in", value: "Rangpur, Bangladesh" },
@@ -40,12 +40,7 @@ export const profile = {
     { label: "Focus", value: "React, Next.js, Node.js, Express.js" },
     { label: "Currently", value: "Open to new opportunities" },
   ],
-  hobbies: [
-    "Playing Football",
-    "Watching Anime",
-    "Traveling",
-    "Open source",
-  ],
+  hobbies: ["Playing Football", "Watching Anime", "Traveling", "Open source"],
 };
 
 export type SocialIcon = "github" | "linkedin" | "twitter" | "facebook";
@@ -157,14 +152,14 @@ export const education: EducationItem[] = [
     institution: "Hajee Mohammad Danesh Science and Technology University",
     period: "2020 — 2025",
     description:
-      "Focused on web technologies, databases and human-computer interaction. Final-year thesis explored accessible UI patterns for low-bandwidth users.",
+      "Focused on web technologies, databases, oop, data structures, algorithm. Final-year thesis explored artificial intelligence and machine learning.",
   },
   {
     degree: "Higher Secondary Certificate (HSC) — Science",
     institution: "Police Lines School and College, Rangpur",
     period: "2017 — 2019",
     description:
-      "Studied physics, chemistry and mathematics; led the college programming club and built my first full website for a local event.",
+      "Studied physics, chemistry, mathematics and ict; run my very first basic C programme.",
   },
   // {
   //   degree: "Secondary School Certificate (SSC) — Science",
@@ -225,7 +220,7 @@ export type Project = {
   year: string;
   role: string;
   timeline: string;
-  client: string;
+  for: string;
   tech: string[];
   description: string[];
   features: string[];
@@ -240,12 +235,12 @@ export const projects: Project[] = [
     slug: "fitlog",
     name: "Fitlog",
     tagline: "A workout library for your gym",
-    image: "/projects/devboard.svg",
+    image: "/projects/fitlog.png",
     year: "2026",
-    role: "Design & Full Stack Development",
+    role: "Frontend Development",
     timeline: "1 weeks",
-    client: "Personal project",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "React", ],
+    for: "Personal project",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
     description: [
       "A dark, no-nonsense gym companion built to test my next.js skills. Pick a lift from the library, lock it into today's plan, and save others for later — all backed by a live workouts API and persisted in your browser.",
     ],
@@ -270,24 +265,32 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/MdSagarAhammed/Workout_tracker_fitlog",
   },
   {
-    slug: "shopsphere",
-    name: "ShopSphere",
-    tagline: "A modern storefront and admin suite for small independent brands.",
-    image: "/projects/shopsphere.svg",
-    year: "2024",
+    slug: "bazardor",
+    name: "BazarDor",
+    tagline: "BazarDor is a responsive Bangla-first market-price dashboard.",
+    image: "/projects/bajardor.png",
+    year: "2026",
     role: "Full Stack Developer",
-    timeline: "12 weeks",
-    client: "Independent retailer",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Cloudinary"],
+    timeline: "1 weeks",
+    for: "personal project",
+    tech: [
+      "React",
+      "Javascript",
+      "Next.js",
+      "MongoDB Atlas",
+      "BetterAuth",
+      "Tailwind CSS",
+    ],
     description: [
-      "ShopSphere is a complete commerce platform: a fast storefront for shoppers and a focused admin panel for the store owner. It handles catalogue management, inventory, discounts, order fulfilment and payments without the overhead of a heavy enterprise suite.",
-      "The frontend is a React SPA with route-level code splitting, while the API is an Express service backed by MongoDB. Stripe handles checkout, and Cloudinary serves responsive product imagery.",
+      "BazarDor is a responsive Bangla-first market-price dashboard for checking everyday grocery prices in Bangladesh, comparing estimated prices across markets, and following daily price movement.",
     ],
     features: [
-      "Filterable catalogue with instant search and faceted categories",
-      "Cart, guest checkout and Stripe payment flow with webhooks",
-      "Admin dashboard for products, stock, discounts and orders",
-      "Order tracking emails and downloadable invoices",
+      "Live product catalogue: Fetches products and categories exclusively from the provided BazarDor API; no local sample product catalogue is used.",
+      "Price movement overview: Separate sections for the top six price risers and fallers.",
+      "Product details and market comparison: Login-protected product pages with min/max/average price summaries and market-level comparisons.",
+      "Category browsing and sorting: Category routes with numeric ascending/descending price sorting that correctly handles Bengali digits.",
+      "Authentication: Better Auth email/password registration and sign-in, optional Google/GitHub OAuth, protected product details, profile and sign-out.",
+      "Responsive Bangla UI: Mobile-friendly navigation, scrolling price ticker, loading skeletons, toast notifications and a custom 404 page.",
     ],
     // challenges: [
     //   "Cart state had to survive refreshes and sign-ins. I persisted a guest cart locally, then merged it into the server cart on login without duplicating line items.",
@@ -299,28 +302,30 @@ export const projects: Project[] = [
     //   "Build a recommendation engine using purchase history.",
     //   "Add a headless storefront starter kit for faster client onboarding.",
     // ],
-    liveUrl: "https://shopsphere.example.com",
-    githubUrl: "https://github.com/alexcarter/shopsphere",
+    liveUrl: "https://bazardor-a-market-tracker.onrender.com",
+    githubUrl: "https://github.com/MdSagarAhammed/bazardor_a_market_tracker",
   },
   {
-    slug: "chatwave",
-    name: "ChatWave",
-    tagline: "Real-time team chat with threads, presence and a tiny footprint.",
-    image: "/projects/chatwave.svg",
-    year: "2024",
+    slug: "studiospace",
+    name: "StudioSpace",
+    tagline: "A Creative Workspace Marketplace",
+    image: "/projects/studiospace.png",
+    year: "2026",
     role: "Full Stack Developer",
-    timeline: "8 weeks",
-    client: "Personal project",
-    tech: ["Next.js", "Socket.IO", "Redis", "PostgreSQL", "Tailwind CSS"],
+    timeline: "2 weeks",
+    for: "Personal project",
+    tech: ["Next.js", "Express.js", "Javascript", "Mongodb", "Better Auth", "Google OAuth", "JWT", "Tailwind CSS", "Rest API",],
     description: [
-      "ChatWave is a lightweight messaging app for small teams. It supports channels, threaded replies, typing indicators, read receipts and presence — the essentials, without the enterprise bloat.",
-      "Messages travel over Socket.IO with Redis pub/sub so multiple server instances stay in sync. Postgres stores history, and the client caches recent conversations for instant navigation.",
+      "Discover. Book. Create.",
+      "StudioSpace is a peer-to-peer marketplace where creators, photographers, filmmakers, podcasters, and musicians can discover and book professional creative workspaces. It also allows studio owners to list and manage their spaces through a seamless booking platform.",
     ],
     features: [
-      "Channels and direct messages with threaded replies",
-      "Live typing indicators, presence and read receipts",
-      "Message search with cursor-based pagination",
-      "File attachments and emoji reactions",
+      "Explore Studios: Discover creative spaces with category-based filtering, search, and detailed workspace information.",
+      "Secure Authentication: Register and log in using email/password or Google authentication.",
+      "Studio Management: Add, update, and delete studio listings with image uploads and detailed information.",
+      "Smart Booking System: Reserve studio spaces and manage bookings with real-time booking status.",
+      "Responsive Design: Fully optimized interface for mobile, tablet, and desktop devices.",
+      "Theme Customization: Switch between light and dark themes for a personalized experience.",
     ],
     // challenges: [
     //   "Keeping unread counts accurate across reconnects was tricky. I derived counts from per-user last-read cursors instead of incrementing counters, which removed drift entirely.",
@@ -332,17 +337,17 @@ export const projects: Project[] = [
     //   "Build voice and video rooms using WebRTC.",
     //   "Ship a desktop app with offline message queuing.",
     // ],
-    liveUrl: "https://chatwave.example.com",
-    githubUrl: "https://github.com/alexcarter/chatwave",
+    liveUrl: "https://studiospace-web.onrender.com",
+    githubUrl: "https://github.com/MdSagarAhammed/studiospace-web",
   },
 ];
 
 export const site = {
   title: "Sagar Ahammed — Full Stack Developer",
   description:
-    "Portfolio of Sagar Ahammed, a full stack developer building fast, accessible web products with React, Next.js and Node.js.",
+    "Portfolio of Sagar Ahammed, a full stack developer building fast, accessible web products with React, Next.js and Express.js.",
   url: "https://myportfolio-ashen-seven-24.vercel.app",
-  ogImage: "/projects/devboard.svg",
+  ogImage: "/projects/portfolioss.png",
 };
 
 export const navLinks = [

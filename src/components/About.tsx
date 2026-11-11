@@ -106,7 +106,7 @@ export function About() {
                     <span className="text-cream">current_focus</span>
                   </p>
                   <p className="text-muted">
-                    &quot;shipping accessible, fast interfaces&quot;
+                    &quot;backend architecture&quot;
                   </p>
                   <p>
                     <span className="text-accent-light">➜</span>{" "}
